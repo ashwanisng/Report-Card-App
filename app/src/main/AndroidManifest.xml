@@ -9,7 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <activity android:name=".ChemistryActivity"
+            android:label="@string/category_chem">
+        </activity>
+
+        <activity android:name=".MathActivity"
+            android:label="@string/category_math">
+        </activity>
+
+        <activity android:name=".EnglishActivity"
+            android:label="@string/category_eng">
+        </activity>
+
+        <activity android:name=".PhysicsActivity"
+            android:label="@string/category_physics">
+        </activity>
+
+        
         <activity android:name=".MainActivity">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
